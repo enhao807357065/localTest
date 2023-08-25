@@ -3,10 +3,12 @@ package main
 import (
 	"github.com/gin-gonic/gin"
 	"net/http"
+	"fmt"
 )
 
 func main() {
-
+	
+	fmt.Println("test")
 	engine := gin.New()
 
 	engine.GET("/", Test)
